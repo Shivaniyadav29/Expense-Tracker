@@ -57,6 +57,7 @@ public class IncomeDaoImp implements IncomeDao {
             e.printStackTrace();
         }
         return Math.max(balance, 0);
+
     }
 //***********************METHOD TO DELETE INCOME OF THE USER************************************************************
     @Override
